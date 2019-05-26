@@ -99,7 +99,7 @@ function createMouse(i){
     },2000);
     temp.timer = timer;
 }
-// 控制生称帝书的条件
+// 控制生成地鼠的条件
 function controlMouse(){
     // 随机出现位置  并且同时出现的地鼠个数不大于最大个数  同一个位置不能出现两只
     var num = Math.floor(Math.random()*9);
